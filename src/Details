@@ -1,0 +1,22 @@
+This is a game of Tic-Tac-Toe
+In this game we have board of n by n size (Square).
+A board contain n x n cells in it
+size can be given by the user
+we have players for this game
+if the board is n by n then, n-1 players can take participation in this game
+Player will also provide stretegy to win the game.
+Player also provide moves 1 by 1.
+Player can do undo move
+We can also include only 1 bot to complete the count of players (if we dont have the players n-1)
+Bot also have levels - (easy,medium,hard)
+Each player have unique symbol
+Bot also have its unique symbol
+
+Game can be win by 4 ways :
+the player who will first cover any 1 row of the board by his/her symbol completely, OR
+the player who will first cover the any 1 coloumn of the board by his/her symbol completely, OR
+the player who will first cover the any 1 diagonal of the board by his/her symbol completely, OR
+the player who will first cover all the corners of a board completely.
+By some logic we will it decide that which player will start the game
+at the end of the game there should be a winner.
+We can see the immidiate recording of the game after game end.
