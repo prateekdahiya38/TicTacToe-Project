@@ -7,7 +7,7 @@ public class BotStrategyFactory {
     public static BotPlayingStrategy selectBotStrategy(String level){
         BotDifficultyLevel botDifficultyLevel = BotDifficultyLevel.valueOf(level);
         return switch (botDifficultyLevel){
-            case E -> new RandomBotPlayingStrategy();
+            case E -> new EasyBotPlayingStrategy();
             case M -> new RandomBotPlayingStrategy();
             case H -> new RandomBotPlayingStrategy();
         };

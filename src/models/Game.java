@@ -91,13 +91,6 @@ public class Game {
         }
 
 
-       public void addPlayer(Player player){
-            players.add(player);
-        }
-        public void addWinningStrategy(WinningStrategy winningStrategy){
-            winningStrategies.add(winningStrategy);
-        }
-
         private void validateBotCount(){
             int botCount = 0;
             for (Player player : players){
